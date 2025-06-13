@@ -1,0 +1,123 @@
+body {
+    
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    font-family: "Poppins", sans-serif;
+    font-weight: 250;
+    font-style: normal;
+    
+}
+
+
+
+/* navbar */
+nav{
+    margin-top: 0;
+    height: 3rem;
+    width:auto;
+    background-color: crimson;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    border-radius: 3px;
+    
+
+}
+
+nav ul{
+    display: flex;
+    gap: 2rem;
+    cursor: pointer;
+    justify-content: center;
+    
+}
+
+nav ul li{
+    list-style: none;
+    color:beige;
+    border-radius: 4px;
+    
+}
+
+
+nav ul li a{
+    list-style: none;
+    color:white;
+    
+    text-decoration: none;
+    
+}
+nav ul li a:hover{
+    color:#ccc;
+    background-color:rgb(119, 18, 35) ;
+}
+
+nav ul li:hover{
+    color: rgb(170, 36, 65);
+    background-color:white ;
+}
+
+/* main img */
+.main img{
+    height:30rem;
+    width: 100%;
+}
+
+h1, h2 {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+/* product cards */
+
+#fruit-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Adjusts columns based on screen size */
+    gap:1rem;  /* Space between items */
+    margin:1rem;
+    justify-items: center; /* Center items in their grid cells */
+}
+
+.product img{
+    height: 9rem;
+    width: 9rem;
+   
+}
+
+.product {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px;
+    background-color: white;
+    width: 200px;
+    text-align: center;
+}
+
+.product button {
+    background-color: crimson;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.product button:hover {
+    background-color: darkred;
+}
+
+#cart-items {
+    border-top: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    margin: 20px;
+}
+
+#total {
+    font-family: "Poppins", sans-serif;
+    font-weight: 250;
+    font-style: normal;
+}
