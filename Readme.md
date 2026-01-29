@@ -12,4 +12,4 @@ Fruit Shop:
 [Click here to watch demo video](media/fruit-shop.mp4)
 
 StudySync
-[Click here to watch demo video](media/StudySync1.png)
+![alt text](media/StudySync1.png)
