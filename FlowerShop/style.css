@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fffaf7;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  margin: 8px;
+  background-color: #fff;
+  padding: 1rem 2rem;
+  border-bottom: 1px solid #ddd;
+  border-top: 1px solid #ddd;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+ 
+}
+
+nav ul li{
+    cursor: pointer;
+    font-weight: 550;
+    color: #0e0d0d;
+    height: 3rem ;
+    width: 6rem;
+    padding:5px;
+    border-radius: 5px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+   
+}
+nav ul li:hover{
+  background-color: rgb(233, 193, 199);
+  color: white;
+
+}
+
+.divider-hero{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+
+}
+.hero-pic{
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.hero-pic img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.main-heading{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: white;
+  font-size: 5rem;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  letter-spacing: 10px;
+  
+}
+.subheading{
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: white;
+  font-weight: 100;
+  font-size: 1.5rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.heading{
+  
+  display: inline-flex;
+ 
+  margin-top:4%;
+  margin-bottom: 5%;
+}
+#head{
+  
+  align-items: center;
+  font-size: 3rem;
+  font-weight: 300;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  color: rgb(126, 17, 90);
+
+}
+
+#sub2{
+
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 2rem;
+  color: #0e0d0d;
+  font-weight: 80;
+}
+.divider-products{
+  margin:3rem;
+  padding: 0%;
+
+}
+.main-grid{
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+}
+.product{
+  width:100%;
+  height: 5rem;
+}
+.divider-valentines{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.divider-valentines img{
+    position: relative;
+  width: 100%;
+  height: 100%;
+   width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
